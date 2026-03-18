@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horario Escolar</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 650px;
+      margin: auto;
+      font-family: Verdana;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 12px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #0055aa;
+      color: white;
+    }
+
+    tbody tr:hover {
+      background-color: #e0f0ff;
+    }
+
+    tfoot {
+      background-color: #003366;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align:center;">📅 Horario Escolar</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="5">Horario — Grado 10°</th>
+    </tr>
+    <tr>
+      <th>Día</th>
+      <th>Materia</th>
+      <th>Hora</th>
+      <th>Salón</th>
+      <th>Profesor</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="2">Lunes</td>
+      <td>Física</td>
+      <td>7:00 - 8:30</td>
+      <td>Salón 1</td>
+      <td>Profesor Ruiz</td>
+    </tr>
+    <tr>
+      <td>Arte</td>
+      <td>8:30 - 10:00</td>
+      <td>Salón 5</td>
+      <td>Profesora Lina</td>
+    </tr>
+
+    <tr>
+      <td rowspan="2">Miércoles</td>
+      <td>Química</td>
+      <td>7:00 - 8:30</td>
+      <td>Salón 2</td>
+      <td>Profesor Pérez</td>
+    </tr>
+    <tr>
+      <td>Historia</td>
+      <td>8:30 - 10:00</td>
+      <td>Salón 3</td>
+      <td>Profesora Gómez</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="5">Total de días: 2 | Total materias: 4</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
